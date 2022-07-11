@@ -1,0 +1,556 @@
+/* Main page Body Styling */
+
+body {
+  background-color: #191765;
+  max-width: 350px;
+  color: #fff;
+  width: 350px;
+  margin: auto;
+}
+
+/* Top Navigation Positioning */
+.navt {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 350px;
+  position: relative;
+  margin: auto auto;
+}
+
+/* Top  Right Battery and wifi icons */
+.navv {
+  margin-top: 15px;
+  width: 80px;
+  height: 40px;
+  overflow: auto;
+}
+
+.navR {
+  margin-right: 0;
+}
+
+/*  Hamnurg Menu */
+.Nvr {
+  width: 33.33332824707031px;
+  height: 2px;
+  background-color: rgb(248, 248, 248);
+  margin: 6px 0;
+}
+
+/*  Hamnurg 1 */
+.hr1 {
+  border-radius: 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 2;
+  bottom: 0;
+}
+
+/*  Hamnurg 2 */
+.hr2 {
+  border-radius: 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 2px;
+  bottom: 0;
+}
+
+/*  Hamnurg 3 */
+.hr3 {
+  border-radius: 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 2px;
+  bottom: 0;
+}
+
+/*  Left Navigation items */
+.nameL {
+  width: 150px;
+  height: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+}
+
+.Tym {
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 100px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  overflow: auto;
+}
+
+.navL {
+  margin-left: 20px;
+}
+
+.flme {
+  /* Used to View Flexbox Boundaries when active */
+  border: #fff solid;
+}
+
+/* Main Flexbox container */
+.container {
+  min-width: 350px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  align-items: center;
+}
+
+/* Main Header/Name & title styling */
+.Mname {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #7d73fc;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 80px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+  font-style: normal;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.SE {
+  justify-content: center;
+  width: 330px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 25px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #edecff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Intro Detail styling */
+.detail {
+  margin-top: 59px;
+  width: 327px;
+  height: 170px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #c8c8d4;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Horrinzontal Line */
+hr {
+  border: 1px solid #646369;
+  background-color: #646369;
+}
+
+/* table Styling */
+.tbl {
+  display: block;
+  width: 350px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.L1 {
+  float: left;
+}
+
+.L2 {
+  float: right;
+}
+
+.L3 {
+  margin-top: 25px;
+  float: left;
+}
+
+.HL {
+  width: 107px;
+  height: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #9490ff;
+  flex: none;
+  order: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 1em 0;
+  width: 104.52px;
+  height: 15.48px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #f5f5ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Eclipse styling */
+.eclips {
+  position: absolute;
+  width: 140px;
+  height: 100px;
+  left: -60px;
+  top: 120px;
+  background: #fff;
+  filter: blur(50px);
+}
+
+.eclips1 {
+  position: absolute;
+  width: 168px;
+  height: 68px;
+  left: 339px;
+  top: 650px;
+  background: #edecff;
+  filter: blur(50px);
+}
+
+/* Social media Icons */
+.fa {
+  color: #fff;
+}
+
+.fa:hover {
+  color: #f00;
+}
+
+.social {
+  width: 180px;
+  height: 25px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.HLR {
+  width: 90%;
+  height: 1px;
+  background-color: #646369;
+  border-color: #646369;
+}
+
+.Wname {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #7d73fc;
+  font-size: 22px;
+  font-weight: 50;
+  line-height: 60px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  font-style: normal;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Main Grid Container */
+.works {
+  padding-bottom: 50px;
+  border-color: #f00;
+  height: 490vh;
+  display: grid;
+  grid-template-columns: 350px;
+  grid-template-rows: 220px 730px 730px 730px 730px 780px 200px;
+  grid-gap: 15px;
+  grid-template-areas:
+    "title"
+    "main1"
+    "main2"
+    "main3"
+    "main4"
+    "contact"
+    "footer";
+}
+
+.title {
+  grid-area: title;
+}
+
+.work1 {
+  grid-area: main1;
+}
+
+.Wimage .image {
+  width: 327px;
+  height: 236px;
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.work2 {
+  grid-area: main2;
+}
+
+.work3 {
+  grid-area: main3;
+}
+
+.work4 {
+  grid-area: main4;
+}
+
+.contact {
+  grid-area: contact;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  align-items: center;
+}
+
+footer {
+  grid-area: footer;
+  display: fl ex;
+  flex-flow: column nowrap;
+  align-self: center;
+}
+
+/* Contact Title */
+.Cnttl {
+  width: 350px;
+  font-family: "Roboto", sans-serif;
+  color: #7d73fc;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+  font-style: normal;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Work Description */
+.wkttl {
+  display: flex;
+  width: 50%;
+  height: 160px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 25px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Work ) Project Description */
+.WKdetail p {
+  width: 327px;
+  text-align: center;
+  margin-top: 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #dcdce8;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+
+.wfoot {
+  display: flex;
+  margin: 0;
+  margin-top: 50px;
+  width: 330px;
+  height: 50px;
+  font-family: inter, "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+  flex: none;
+  order: 0;
+}
+
+button {
+ 
+  background: #7d73fc;
+  border-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px1rem;
+  line-height: 1.5remx;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #edecff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 20px 23px;
+}
+
+textarea {
+  min-width: 350px;
+  min-height: 100px;
+  resize: none;
+  columns: 50;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  font-size: 15px;
+  text-align: left;
+  color: #81818c;
+}
+
+#names {
+  width: 327px;
+  max-lines: 10;
+  position: relative;
+  background: #f7f3ff;
+  border: 1px solid #9490ff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px;
+  line-height: 28px;
+  text-align: left;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Email Input */
+#email {
+  color: #191765;
+  width: 327px;
+  position: relative;
+  background: #f7f3ff;
+  border: 1px solid #9490ff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px;
+  line-height: 28px;
+  text-align: left;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* contact Address Title */
+.Cname {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #7d73fc;
+  font-size: 17px;
+  line-height: 80px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+  font-style: normal;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Owner contact email Address */
+.Femail {
+  width: 100%;
+  padding-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-top: -40px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.lkd {
+  display: flex;
+  border-width: 0;
+  padding: 0;
+  width: 20px;
+  height: 19px;
+  margin: 0;
+}
+
+.lki {
+  position: static;
+  width: 5px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  margin-top: -15px;
+}
+
+img:hover {
+  background-color: hsl(308, 89%, 49%);
+}
